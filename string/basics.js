@@ -1,5 +1,6 @@
 // ********Complete Javascript Notes********
 
+
 // String Opertions :
 
 
@@ -37,8 +38,9 @@
 
 // or 
 
-const name = new String("Rishabh")
-console.log(name[3])
+// const name = new String("Rishabh")
+// console.log(name[3])
+// output : h
 
 
 
@@ -46,9 +48,7 @@ console.log(name[3])
 
 
 
-
-// here i have shown how to concatenate a string : 
-
+// string concatenation :
 
 // old syntax for concatenation : 
 
@@ -58,6 +58,8 @@ console.log(name[3])
 // console.log(name + repoCount);
 
 // This will give "Rishabh50" as output
+
+
 
 // new, recommended syntax : 
 
@@ -75,6 +77,40 @@ console.log(name[3])
 
 // console.log(`Hello, my name is ${name+repoCount}`);
 
-// so we use backticks which helps in string Interpolation, we create placeholders for that
+//  meathods we can perform on strings : 
+
+// although there are many meathods we can perform on strings, but here are some of the main meathods : 
 
 
+
+
+
+const mystring = new String("this is a sample")
+
+// console.log(mystring.length) 
+// output : 16
+
+// console.log(mystring.toUpperCase()) 
+// output : THIS IS A SAMPLE
+
+// console.log(mystring.toLowerCase())
+// output : this is a sample
+
+
+// What is present at a given index, there are few meathods to find that, all do almost same thing : 
+
+
+// console.log(mystring[1])
+// output : h
+
+// console.log(mystring.charAt(12))
+// output : m
+
+console.log(mystring.at(2))
+
+
+
+
+
+
+// https://www.w3schools.com/js/js_string_methods.asp#mark_charat
