@@ -204,8 +204,15 @@
 // console.log(words)
 // output : [ 'The quick b', 'own fox' ]
 
-const str = new String("Reliance, HDFC, ICICI, HUL, ITC")
-console.log(str.split(', '))
+
+// const str = new String("Reliance, HDFC, ICICI, HUL, ITC")
+// console.log(str.split(', '))
+// output : [ 'Reliance', 'HDFC', 'ICICI', 'HUL', 'ITC' ]
+
+// toLocaleString meathod : it converts 1000000 into 1,000,000 ( US standard) or 10,00,000 ( Indian standard)
+
+const str = 1000000
+console.log(str.toLocaleString())
 
 
 
@@ -227,10 +234,8 @@ console.log(str.split(', '))
 
 
 
+// References : 
 
+// W3 schools : https://www.w3schools.com/js/js_string_methods.asp#mark_charat
 
-
-
-
-
-// https://www.w3schools.com/js/js_string_methods.asp#mark_charat
+// MDN reference : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
